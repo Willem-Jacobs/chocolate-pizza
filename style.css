@@ -1,0 +1,183 @@
+body {
+  padding: 30px 100px;
+  width: 75%;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+}
+
+.nav-logo {
+  float: left;
+}
+.nav-left {
+  display: inline-block;
+}
+
+.nav-left-text {
+  font-family: "Yellowtail", cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.nav-left h3 {
+  font-variant: small-caps;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+
+.nav-right-icons {
+  line-height: 100px;
+  position: absolute;
+  top: 3px;
+  right: 145px;
+}
+/* 
+li {
+  display: inline-block;
+  line-height: 120px;
+  margin-left: 10px;
+}
+
+li:first-child {
+  margin-left: 300px;
+} */
+
+.nav-line {
+  width: 100%;
+}
+
+.nav-line {
+  height: 15px;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
+  margin: 20px 0;
+}
+
+.post-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+  margin-bottom: 10px;
+}
+.post-info p {
+  display: inline-block;
+  font-variant: small-caps;
+  font-family: "Oswald", sans-serif;
+  color: darkgray;
+}
+
+.print {
+  float: right;
+  margin-left: 3px;
+}
+
+.print~img {
+  float: right;
+  height: 15px;
+  width: 20px;
+}
+
+#choco-pizza {
+  width: 100%;
+  /* clear: both; */
+  margin-top: 25px;
+}
+
+article p {
+  text-indent: 32px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 20px;
+  color: darkgray;
+}
+
+#ingredients {
+  margin: 20px 15px 40px 15px;
+  width: auto;
+  background-image: url("img/list-bg.png");
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 5px darkgray;
+  line-height: 30px;
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+
+/* input {
+  border: 1px solid darkgray;
+} */
+
+label {
+  font-family: "Patrick Hand";
+  font-size: 20px;
+  color: darkgray;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+hr {
+  width: 100%;
+}
+
+.author-info {
+  display: inline-block;
+  width: 60%;
+}
+
+.author-info h2 {
+  font-size: 22px;
+  margin: 10px;
+  font-weight: bold;
+  color: gray;
+}
+
+.author-info p {
+  font-size: 18px;
+  margin: 10px;
+  color: gray;
+}
+
+#share-button {
+  float: right;
+  background-color: #bc7058;
+  font-variant: small-caps;
+  font-family: "Overpass", sans-serif;
+  font-size: 24px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* hr {
+  margin-top: 100px;
+  width: 300px;
+
+} */
+
+.footer-bottom {
+  width:100%;
+  text-align:center;
+  border-bottom: 2px solid #cec5ba;
+  line-height:0.1em;
+  margin:37px 0 20px;
+}
+.footer-bottom div {
+  position:absolute;
+  bottom:-430px;
+  content: url("img/logo.png");
+  left:50%;
+  margin-left:-125px;
+  background: #fff;
+}
+
+footer p{
+  text-align: center;
+  color: darkgray;
+  line-height: 20px;
+  font-size: 14px;
+}
