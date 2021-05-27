@@ -159,28 +159,23 @@ hr {
 
 } */
 
-span {
-  display: inline-block;    
+.footer-bottom {
+  width:100%;
+  text-align:center;
+  border-bottom: 2px solid #cec5ba;
+  line-height:0.1em;
+  margin:37px 0 20px;
+}
+.footer-bottom div {
+  position:absolute;
+  bottom:-430px;
+  content: url("img/logo.png");
+  left:50%;
+  margin-left:-125px;
+  background: #fff;
 }
 
-span:before,
-span:after {
-  border-top: 2px solid black;
-  display: block;
-  height: 5px;
-  content: " ";
-  width: 39%;
-  position: absolute;
-  left: 0;
-  top: 45px;
-}
-
-span:after {
- right: 0;  
- left: auto; 
-}
-
-footer {
+footer p{
   text-align: center;
   color: darkgray;
   line-height: 20px;
